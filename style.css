@@ -7,17 +7,20 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h {
-    font-size: 50px;
+h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+
 }
 
 .golden_colors {
     color: #E58813;
-    text-shadow: text-shadow: 1px 1px 5px black;
+
 }
 
 section {
     display: flex;
+    padding-top: 120px;
 }
 
 .half_width {
@@ -30,21 +33,38 @@ section {
 
 }
 
+.half_width p {
+    margin-bottom: 20px;
+}
+
 .hire_button {
     text-decoration: none;
+    margin-top: 20px;
     padding: 10px 40px;
-    background-image: linear-gradient(#E58813, #097972, #4C1B8B);
+    background-image: linear-gradient(#E58813, navy);
     color: white;
     box-shadow: 1px 1px 3px black: border-radus: 10px;
     border-radius: 20px;
     font: weight 700px;
+
 }
+
+
 
 .hire_button:hover {
     color: #5D0B0B;
+
 }
 
 .top_banner {
     background-image: url(images/bg.png);
     background-repeat: no-repeat;
+}
+
+.second_hero {
+    margin-top: -1%;
+    padding-top: 10%;
+    background-image: url(images/bg2.png);
+    background-repeat: no-repeat;
+    background-position: bottom-left;
 }
